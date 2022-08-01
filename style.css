@@ -1,0 +1,113 @@
+body{
+  font-family: Inter, Roboto, sans-serif;
+  font-style: normal;
+  font-weight: 200;
+  background-color: #050505; 
+}
+h1, h2, h3, h4, h5, h6{
+  font-family: Anton, Inter, Roboto, Sans-Serif;
+  text-transform: uppercase;
+  color: #050505;
+}
+@media screen and (max-width: 500px){
+  h1{
+    font-size: 38px;
+  }
+}
+@media screen and (max-width: 500px) {
+  h2{
+    font-size: 28px;
+  }
+}
+a{
+  text-decoration: none;
+}
+.btn{ 
+  border: none;
+  background-color: #050505;
+}
+.btn:hover{ 
+  background-color: #616161;
+}
+
+/* custom css */
+.navbar{
+  background:#050505;
+  font-family: Inter, Roboto, sans-serif;
+  text-transform: normal;
+  color: #FFF;
+  
+}
+.navbar-brand{
+  font-size: x-large;
+  font-weight: bolder;
+}
+.navbar .navbar-toggler{
+  border: none;
+}
+
+/* feature section */
+#featureSection{ 
+  background-color: #050505;
+  color: #E6E7E8;
+  padding-top: 100px;
+  padding-bottom: 100px;
+  min-height: auto;
+}
+@media screen and (max-width: 500px) {
+  #featureSection{ 
+    padding-top: 70px;
+    padding-bottom: 70px;
+    min-height: auto;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about{
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+}
+#about h1{
+  font-size: 72px;
+  color: #616161;
+}
+@media screen and (max-width: 992px) {
+  #about h1{
+    font-size: 62px;
+  }
+}
+@media screen and (max-width: 500px) {
+  #about h1{
+    font-size: 40px;
+    margin-bottom: 0px;
+  }
+}
+#about span{
+  margin-right: 15px;
+}
+#about .fa-brands{ 
+  color: #E6E7E8;
+  font-size: x-large;
+}
+
+/* footer */
+footer{
+  background-color: #050505;
+  color: #FFF;
+  text-align: center;
+}
+
+/* contact */
+footer #contact{
+  background-color: #05FFFF;
+  color: #050505;
+  padding-top: 100px;
+  padding-bottom: 100px;
+}
+
+/* footnote */
+footer #footnote{
+  font-family: Inter, Roboto, Sans-serif;
+  font-size: small;
+  padding-top: 15px;
+}
